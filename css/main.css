@@ -1,5 +1,10 @@
 body {
-    background-color: rgb(70, 117, 148);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: none;
+    background: rgb(1,63,139);
+    background: linear-gradient(0deg, rgba(1,63,139,0.7888631090487239) 43%, rgba(0,212,255,1) 100%);
 }
 main {
     text-align: center;
@@ -128,3 +133,9 @@ box-shadow: 10px 10px 5px 0px rgba(46, 73, 82, 0.31);
     width: 30%;
     text-align: center;
 }
+
+@media screen and (max-width: 800px) {
+    main {
+        width: 90%;
+    }
+  }
